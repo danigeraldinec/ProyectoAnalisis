@@ -1,0 +1,14 @@
+.map-container {
+  width: 90%;
+  max-width: 900px;
+  height: 500px;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0px 6px 25px rgba(0, 74, 173, 0.25);
+  margin: 0 auto;
+  transition: transform 0.2s ease;
+}
+
+.map-container:hover {
+  transform: scale(1.005);
+}
